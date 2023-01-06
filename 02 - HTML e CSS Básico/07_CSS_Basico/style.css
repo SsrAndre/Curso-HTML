@@ -1,0 +1,15 @@
+a{
+    color: red;
+    text-decoration: none;
+}
+
+a{
+    color: tomato;
+    font-size: 32px;
+}
+/* OBS: os Codigos CSS que são aplicados depois vão ter mais relevancia do que os anteriores.
+
+Se eu tiver outro doc CSS e carregar depois, as declarações vai sobrepor a do primeiro arquivo.
+EFEITO CASCATA
+
+*/

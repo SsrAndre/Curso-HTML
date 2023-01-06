@@ -1,0 +1,10 @@
+/*Max-width:100, garante que a imagem não utrapesse o elemento PAI (body)  */
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+div{
+    width: 300px;
+}

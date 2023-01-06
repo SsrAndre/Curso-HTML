@@ -1,0 +1,43 @@
+
+/* Uma forma de selecionar mais de um elemento por vez é usa a Virgula.
+
+ex: h1, p
+*/
+
+/* h1, a{
+    color: red;
+} */
+
+/* Vai selecionar  todo A que tenha parente com P ou melhor dizendo, que estiver dentro de outro do elemento anterior */
+p a {
+    color: black;
+}
+
+/* Selecionando por ID exemplo abaixo */
+#introducao{
+    color: gold;
+}
+
+
+/* Usando CLASS */
+.codigo, .design{
+    color: mediumseagreen;
+}
+
+/* .design{
+    color: palevioletred;
+} */
+
+/* Usando 3 classes em uma palavra */
+
+.azul{
+    color: blue;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.grande{
+    font-size: 32px;
+}

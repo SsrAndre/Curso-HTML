@@ -1,0 +1,12 @@
+h1{
+    color: seagreen;
+    background-color: rgb(134, 149, 163);
+}
+
+span, a, strong{
+    border: 1px solid  rgba( 0, 0, 0, 0.5)
+}
+
+div, h1, p{
+    border: 1px solid  rgba( 255, 0, 0, 0.5)
+}

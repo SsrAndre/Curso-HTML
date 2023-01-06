@@ -1,0 +1,73 @@
+/* Estilos Gerais */
+
+.grid{
+    display: grid; /*Define o GRID*/
+    gap: 20px; /*Espaço*/
+    grid-template-columns: 1fr 1fr; /*Coluna*/
+}
+
+.foto{
+    
+    grid-column: 1 / 3; /*Quantas Colunas*/
+}
+
+.descricao{
+    grid-column: 1 / -1; /* Outra forma de falar de declarar até o final 1 / -1 */
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40;
+}
+
+h1, p{
+    margin: 0;
+
+}
+
+h1{
+    font-size: 48px;
+    line-height: 1;
+
+}
+
+
+p, span{
+    font-size: 20px;
+}
+
+img{
+    max-width: 100%; /*Define o maximo da imagem*/
+}
+
+.comprar{
+    background-color: #a8f;
+    padding: 10px 20px;
+    color: #103;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+
+.preco{
+    background: #ddd;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+    /* Pra escolher o canto q o item vai ficar tem que deixarm px: ex
+    Sempre tem que ter espaço pro conteudo */
+    /* OBS: Justificar com FR não funciona.. mas com AUTO funciona... lembrando que com Auto ele vai sempre pegar o tamanho do maior conteudo P ou outra Tag*/
+
+    /* Align-Content só alinha na vertical e se tiver espaço */

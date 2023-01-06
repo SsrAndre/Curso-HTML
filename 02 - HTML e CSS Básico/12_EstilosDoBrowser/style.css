@@ -1,0 +1,15 @@
+body{
+    color: seagreen;
+}
+
+/* h1, p{
+    color: seagreen;
+} */
+
+a{
+    color: inherit;
+}
+
+/* a{
+    color: seagreen;
+} */

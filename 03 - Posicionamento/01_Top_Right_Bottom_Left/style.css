@@ -1,0 +1,15 @@
+span{
+    display: inline-block;
+    background: #ddd;
+}
+
+span{
+    padding: 30px;
+    padding: 20px 40px;
+    padding: 40px 100px 200px 10px;
+    border: 10px solid black;
+    border-top: 20px solid seagreen;
+    
+}
+/* Para definir o tamanho de cada canto é bom usar o: border-width pra definir o tamanho de cada canto.  */
+
