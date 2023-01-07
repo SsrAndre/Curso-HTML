@@ -1,0 +1,17 @@
+body{
+    margin: 20px;
+}
+
+/*Consigo definir o simbolo da lista com list-style, adicionar img e 
+definir se é insede ou não*/
+
+ul, ol{
+    padding: 0px;
+    margin: 0px;
+    list-style:square inside;
+}
+
+
+dl, dd{
+    margin: 0px;
+}
