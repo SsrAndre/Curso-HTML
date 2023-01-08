@@ -1,0 +1,14 @@
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.5; /*Altura de linha*/
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-indent: 4rem; /*Para dar um espaço no inicio do paragrafo*/
+    text-align: left; /*Para alinhar o texto*/
+    text-shadow: 5px 5px 10px gray; /*Sombra no texto, mas isso se faz pelo CSS*/
+    letter-spacing: 0.5rem; /*Espaçamento entre as letras*/
+  }
+  

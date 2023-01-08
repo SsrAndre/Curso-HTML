@@ -1,0 +1,39 @@
+/*a{
+    text-decoration: none;
+    color: white;
+    background-color: darkblue;
+    display: inline-block;
+}
+
+p{
+    background-color: lightblue;
+}
+
+.px{
+    font-size: 24px;
+    padding: 16px 32px;
+}
+.rem{
+    font-size: 2rem;
+    padding: 1rem 2rem;
+}
+*/
+
+body{
+    margin: 0px;
+}
+
+section{
+    /* width: 200px; */
+    background: tomato;
+}
+
+div{
+    
+    background-color: lightblue;
+    width: 50%; /*Função calc é usada aqui. quando voce quer diminuir uma parte da tela ou outra coisa.*/
+    height: 200px;
+    /* height: 100vh; */
+    
+}
+

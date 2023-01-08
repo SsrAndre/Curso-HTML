@@ -1,0 +1,68 @@
+a{
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background: #caf;
+    color: #217;
+    /*Comando abaixo faz a transcisão, 0.3s normalmente é o ideal
+    transition: 0.3s;*/
+}
+
+/*Quando passar o Mouse por cima vai aumentar o tamanho*/
+a:hover{
+    font-size: 3rem;
+    background: #adf;
+    color: #147;
+
+}
+/**/
+
+/*a:focus - mais especificos para links e elementos que podem ser focados. 
+Voce consegue ver o efeito quando você clica na tela e aperta TAB e ele seleciona BOTOES, LINKS e FORMULARIOS*/
+a:focus{
+    background-color: #cfa;
+    color: #371;
+    
+}
+/*Quando clicarmos no elemento ele vai ser ativado.*/
+a:active {
+    background: #ffa;
+    color: #761;
+}
+
+/*Visited - Mostra quando o link já foi visitado.
+ele tem poder sobre os outros, fazendo que os outros comandos seja "Anulados" */
+/* a:visited{
+    background-color: #fda;
+    color: #731;
+} */
+
+/*SELETORES */
+/*:first-child Seleciona só o primeiro*/
+.lista-1 li:first-child{
+    background: #caf;
+}
+
+/*Seleciona o Ultimo elemento*/
+.lista-1 li:last-child{
+    background: #caf;
+    background-color: #cfa;
+}
+
+/*:nth-child() serve para você selecionar um elemento especifico*/
+.lista-1 li:nth-child(3){
+    background: #ccc;
+}
+/*EVEN - Seleciona em pares
+ODD - Seleciona em Impares
+3N - Seleciona de 3 em 3*/
+.lista-2 li:nth-child(){
+    background: #caf;
+}
+
+/*Seletor de negação -:not() todo elemento que estiver dentro não será selecionado*/
+.lista-3 li:not(:first-child, :last-child){
+    background-color: #caf;
+}
